@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="..\shared\crypto\crypto.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="protection">
+      <UniqueIdentifier>{db65dc99-e33a-4b9d-bcc5-3ebc4ee4df35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{cce04ecc-5f28-4cbe-b56a-dcc5c1455438}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xor.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="curl\curl.h" />
+    <ClInclude Include="curl\curlver.h" />
+    <ClInclude Include="curl\easy.h" />
+    <ClInclude Include="curl\header.h" />
+    <ClInclude Include="curl\mprintf.h" />
+    <ClInclude Include="curl\multi.h" />
+    <ClInclude Include="curl\options.h" />
+    <ClInclude Include="curl\stdcheaders.h" />
+    <ClInclude Include="curl\system.h" />
+    <ClInclude Include="curl\typecheck-gcc.h" />
+    <ClInclude Include="curl\urlapi.h" />
+    <ClInclude Include="curl\websockets.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
