@@ -1,0 +1,85 @@
+# Visual Studio user and build artifacts
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+*.opensdf
+*.sdf
+*.cache
+*.db
+*.log
+
+# Build directories and intermediate files
+[Bb]in/
+[Oo]bj/
+Debug*/
+Release*/
+x64/ 
+[xX]86/
+ARM/
+ipch/
+*.tlog/
+*.lastbuildstate
+*.idb
+*.pdb
+*.ipdb
+*.ilk
+*.log
+*.tmp
+*.temp
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.exp
+*.app
+*.out
+*.iobj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+
+# Temporary files
+*~
+~$*
+*.bak
+*.swp
+*.swm
+*.tmp
+*.temp
+*.orig
+*.rej
+
+# Visual Studio specific files
+*.vcxproj.user
+*.vcxproj.filters.user
+*.[Cc]ache
+
+# macOS artifacts
+.DS_Store
+
+# Windows artifacts
+Thumbs.db
+ehthumbs.db
+
+# Generated documentation
+# Do not commit generated docs, export files, or build artifacts.
+*.log
+*.xml
+*.dmp
+
+# Node / package management artifacts (if any tooling is added later)
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Editor directories
+.vscode/
+.idea/
